@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://media0.giphy.com/media/upmMxf6lesFwY/giphy.gif?cid=ecf05e47m1kr0qrziefcfr8pjxbdyk7hbd1rz6o5i0cn9ayh&rid=giphy.gif&ct=g');
+    background-size: cover;
+}
+
+#heading {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+#score {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 100px;
+    color: #fff;
+}
+
+#stars {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+}
+
+#stars:hover {
+    width: 70px;
+    height: 70px;
+}
+
+#stars:active {
+    border: solid 2px white;
+    border-radius: 50%;
+}
+
+#gameOver {
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background: black;
+    padding: 50px;
+    display: none;
+}
