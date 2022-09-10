@@ -5,8 +5,8 @@ const stars = document.querySelector("#stars");
 let score = 0;
 
 function moveStars() {
-    stars.style.top = Math.random() * 1090 + 'px';
-    stars.style.left = Math.random() * 1090 + 'px';
+    stars.style.top = Math.random() * 1070 + 'px';
+    stars.style.left = Math.random() * 1070 + 'px';
     console.log(stars);
 }
 
